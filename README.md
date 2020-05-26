@@ -36,13 +36,17 @@ i) Spring boot starter web
 Step 2: Configure application.properties :-
 
 spring.mvc.view.prefix: /WEB-INF/jsp/
+
 spring.mvc.view.suffix: .jsp
 
 server.port = 8084
+
 spring.application.name=Spring-boot
 
 spring.datasource.url=jdbc:mysql://localhost:3306/review_application
+
 spring.datasource.username=root
+
 spring.datasource.password=mypass
 
 logging.level.org.springframework.web=DEBUG
