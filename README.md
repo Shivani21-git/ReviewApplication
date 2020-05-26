@@ -5,8 +5,9 @@ Review Application is a monolithic application using Spring MVC.
 Step 1 : Generate the spring boot project fro start.spring.io
 Step 2 : Add the below dependencies:
 i) Spring boot starter web
-ii) <!-- to build jsp -->
-<dependency>
+
+       ii) <!-- to build jsp -->
+              <dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
